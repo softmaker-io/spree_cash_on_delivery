@@ -13,7 +13,7 @@ class Spree::PaymentMethod::CashOnDelivery < Spree::PaymentMethod
       order: payment.order,
       adjustable: payment.order,
       source: self,
-      label:
+      label: label
     )
   end
 
@@ -49,10 +49,6 @@ class Spree::PaymentMethod::CashOnDelivery < Spree::PaymentMethod
   def source_required?
     false
   end
-
-  # def provider_class
-  #  self.class
-  # end
 
   def payment_source_class
     nil
