@@ -1,0 +1,14 @@
+pl:
+  cash_on_delivery:
+    views:
+      payment:
+        description: "Płatność jest dokonywana w momencie odbioru zamówienia"
+        concept: "To jest numer Twojego zamówienia"
+        amount: "Kwota Twojego zamówienia to"
+        extra: "%{extra} euro dodatkowej opłaty za tę usługę."
+      admin:
+        advice: "Pobranie"
+        total: "Dodatkowe %{extra} zł"
+        orders:
+          extra: "Pozostaje do uwzględnienia dodatkowa opłata za usługę pobrania"
+    label: "Dodatkowe pobranie"
